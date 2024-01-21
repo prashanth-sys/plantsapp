@@ -1,0 +1,13 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.planets-container {
+  font-family: 'Roboto';
+}
+.heading {
+  color: #05acff;
+  font-family: 'Roboto';
+  margin-top: 5%;
+}
+.image {
+  width: 50%;
+}
