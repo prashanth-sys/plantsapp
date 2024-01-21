@@ -9,7 +9,7 @@ class PlanetsSlider extends Component {
   render() {
     const {planetsList} = this.props
     return (
-      <div className="bg-container">
+      <div className="bg-container" data-testid="planets">
         <PlanetItem planetsList={planetsList} />
       </div>
     )

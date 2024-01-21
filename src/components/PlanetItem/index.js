@@ -17,7 +17,11 @@ const PlanetItem = props => {
       <Slider {...settings}>
         {planetsList.map(planet => (
           <div key={planet.id} data-testid="planets">
-            <img src={planet.imageUrl} alt={planet.name} className="image" />
+            <img
+              src={planet.imageUrl}
+              alt={`planet ${planet.name}`}
+              className="image"
+            />
             <div>
               <h1>{planet.name}</h1>
               <p>{planet.description}</p>
